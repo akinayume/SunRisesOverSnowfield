@@ -1,0 +1,49 @@
+ideas = {
+
+		country = {
+				TIB_QNNNZ = {
+					allowed = {
+						always = no
+					}
+					modifier = {
+						custom_modifier_tooltip = TIB_QNNNZ_tt
+
+						consumer_goods_use_modifier = 0.10
+						production_speed_buildings_factor = -2.00
+						gdp_growth_modifier = -2.00
+						production_factory_max_efficiency_factor = -0.80
+						production_factory_efficiency_gain_factor = -0.20
+						stability_factor = 0.20
+					}
+
+					picture = uDysMrfn-581667
+				}
+
+
+
+
+				TIB_SJSDGR = {
+					allowed = {
+						always = no
+					}
+					modifier = {
+						custom_modifier_tooltip = TIB_SJSDGR_tt
+						political_power_gain = -0.15
+						gdp_growth_modifier = 7.00
+
+					}
+					picture = VAGDboTt-581666
+				}
+				TIB_RPTIDEA = {
+						allowed = {
+							always = no
+						}
+						modifier = {
+							custom_modifier_tooltip = TIB_RPTIDEA_tt
+							political_power_gain = -1.00
+							stability_factor = -0.10
+						}
+						picture = RPTIDEA
+				}
+		}
+}

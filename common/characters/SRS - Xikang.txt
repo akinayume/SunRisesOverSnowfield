@@ -1,0 +1,48 @@
+characters = {
+    XKA_Sanggyai_Yexe = {
+        name = XKA_Sanggyai_Yexe
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/XKA/Portrait_XKA_Sanggyai_Yexe.dds"
+
+            }
+        }
+        country_leader = {
+            ideology = socialist_revolutionary_frontism_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_Sanggyai_Yexe_DESC"
+        }
+        field_marshal = {
+            traits = { politically_connected organizer }
+            skill = 9
+            attack_skill = 9
+            defense_skill = 9
+            planning_skill = 9
+            logistics_skill = 9
+        }
+    }
+    XKA_Zhang_Jichun = {
+    name = XKA_Zhang_Jichun
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/XKA/Portrait_XKA_Zhang_Jichun.dds"
+
+            }
+        }
+        country_leader = {
+            ideology = communist_mao_zedong_thought_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_Zhang_Jichun_DESC"
+        }
+        corps_commander = {
+            traits = { politically_connected organizer }
+            skill = 9
+            attack_skill = 9
+            defense_skill = 9
+            planning_skill = 9
+            logistics_skill = 9
+        }
+    }
+}

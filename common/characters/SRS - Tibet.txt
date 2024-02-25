@@ -1,0 +1,243 @@
+characters = {
+    ###Kashag Chars
+    SRS_Tenzin_Gyatso = {
+        name = SRS_Tenzin_Gyatso
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Tenzin_Gyatso.dds"
+            }
+
+        }
+        country_leader = {
+            ideology = despotism_buddhist_theocroacy_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_SRS_TENZIN_GYATSO_DESC"
+        }
+        country_leader = {
+            ideology = despotism_1_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_SRS_TENZIN_GYATSO_DESC"
+        }
+        country_leader = {
+            ideology = despotism_2_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_SRS_TENZIN_GYATSO_DESC"
+        }
+    }
+
+
+    TIB_Neushar_Tupten_Tarpa = {
+        name = TIB_Neushar_Tupten_Tarpa
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Neushar_Tupten_Tarpa.dds"
+                small = "GFX_idea_TIB_minister_Neushar_Tupten_Tarpa"
+            }
+        }
+
+        advisor = {
+            slot = foreign_minister
+            idea_token = TIB_Neushar_Tupten_Tarpa_for
+            allowed = { tag = TIB }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    TIB_Doka = {
+        name = TIB_Doka
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Neushar_Tupten_Tarpa.dds"
+                small = "GFX_idea_TIB_minister_Doka"
+            }
+        }
+
+        advisor = {
+            slot = security_minister
+            idea_token = TIB_Doka_sec
+            allowed = { tag = TIB }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    TIB_Yabshi_Taklha_Phuntso_Tashi = {
+        name = TIB_Yabshi_Taklha_Phuntso_Tashi
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Yabshi_Taklha_Phuntso_Tashi.dds"
+                small = "GFX_idea_TIB_minister_Yabshi_Taklha_Phuntso_Tashi"
+            }
+        }
+
+        corps_commander = {
+            traits = { organizer }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+        }
+        advisor = {
+            slot = head_of_government
+            idea_token = TIB_Yabshi_Taklha_Phuntso_Tashi_hog
+            allowed = { tag = TIB }
+            traits = {
+                tib_leader
+            }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    TIB_Sokang_Wangching = {
+        name = TIB_Sokang_Wangching
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Sokang_Wangching.dds"
+                small = "GFX_idea_TIB_minister_Sokang_Wangching"
+            }
+        }
+        country_leader = {
+            ideology = paternalism_oligarchy_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_Yabshi_Taklha_Phuntso_Tashi_DESC"
+        }
+        corps_commander = {
+            traits = { organizer }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+        }
+        advisor = {
+            slot = economy_minister
+            idea_token = TIB_Sokang_Wangching_eco
+            allowed = { tag = TIB }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    TIB_Ramba_Gonching = {
+        name = TIB_Ramba_Gonching
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_TIB_Ramba_Gonching.dds"
+                small = "GFX_idea_TIB_minister_Ramba_Gonching"
+            }
+        }
+        advisor = {
+            slot = head_of_government
+            idea_token = TIB_Ramba_Gonching_hog
+            allowed = { tag = TIB }
+            traits = {
+                tib_leader
+            }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    ####URF(RPT-CPT) CHARS
+    RET_Puncog_Wanggyai = {
+        name = RET_Puncog_Wanggyai
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_RET_Puncog_Wanggyai.dds"
+                small = "GFX_idea_RET_Puncog_Wanggyai"
+            }
+        }
+        country_leader = {
+            ideology = communist_bolshevism_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_PUNCOG_WANGGYAI_DESC"
+        }
+        advisor = {
+            slot = head_of_government
+            idea_token = TIB_Neushar_Tupten_Tarpa_hog
+            allowed = { tag = TIB }
+            traits = {
+                tib_leader
+            }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    RET_Angwang_Gesang = {
+        name = RET_Angwang_Gesang
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/TIB/Portrait_RET_Angwang_Gesang.dds"
+                small = "GFX_idea_RET_Angwang_Gesang"
+            }
+        }
+        country_leader = {
+            ideology = communist_national_communism_subtype
+            expire = "1999.1.1"
+            id = -1
+            desc = "POLITICS_ANGWANG_GESANG_DESC"
+        }
+        advisor = {
+            slot = foreign_minister
+            idea_token = RET_Angwang_Gesang_fom
+            allowed = { tag = TIB }
+            ledger = civilian
+            cost = -1
+            can_be_fired = no
+            ai_will_do = { factor = 0 }
+        }
+    }
+    RET_Bsod_Nams_Rgyal_Po = {
+          name = RET_Bsod_Nams_Rgyal_Po
+          portraits = {
+              civilian = {
+                  large = "gfx/leaders/TIB/Portrait_RET_Bsod_Nams_Rgyal_Po.dds"
+                  small = "GFX_idea_RET_Bsod_Nams_Rgyal_Po"
+              }
+          }
+          country_leader = {
+              ideology = socialist_revolutionary_frontism_subtype
+              expire = "1999.1.1"
+              id = -1
+              desc = "POLITICS_Bsod_Nams_Rgyal_Po_DESC"
+          }
+          advisor = {
+              slot = head_of_government
+              idea_token = RET_Bsod_Nams_Rgyal_Po_hog
+              allowed = { tag = TIB }
+              ledger = civilian
+              cost = -1
+              can_be_fired = no
+              ai_will_do = { factor = 0 }
+          }
+      }
+      SRS_ITS_FUCKING_COMMIE_LAMA = {
+          name = TIB_Tenzin_Gyatso
+          portraits = {
+              civilian = {
+                  large = "gfx/leaders/TIB/OH_FUCK_COMMIE_LAMA.dds"
+              }
+          }
+          country_leader = {
+              ideology = communist_mao_zedong_thought
+              expire = "1999.1.1"
+              id = -1
+              desc = "POLITICS_OH_FUCK_HONGWEN_LAMA_DESC"
+          }
+      }
+}

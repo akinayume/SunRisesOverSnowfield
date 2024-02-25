@@ -1,0 +1,21 @@
+add_namespace = TIB
+add_namespace = TIB_RET
+add_namespace = TIB_REF
+add_namespace = TIB_CON
+add_namespace = TIB_debug
+country_event = {
+    id = TIB_debug.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_debug.1.t
+    desc = TIB_debug.1.d
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_debug.1.a
+        TIB = {
+              add_ideas = { TIB_Sokang_Wangching_eco }
+        }
+    }
+}

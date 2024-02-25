@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+    BHU: "不丹"
+    BHU_DEF: "不丹王国"
+    BHU_ADJ: "不丹王国"
+    BHU_despotism_party: "印度顾问"
+    BHU_paternalism_party: "不丹国民议会(上议院)"
+    BHU_communist_party: "藏共(不丹)"
+    BHU_communist_1_party: "印共(不丹)"
+    BHU_communist_2_party: "尼共(不丹)"
+    BHU_despotism_1_party: "印度国民军 - 不丹派防部队"
+    BHU_despotism_2_party: "不丹王家军队"
+
+    BHU_Transitional_Military_Occupation:0 "旧日之殇"
+    BHU_Transitional_Military_Occupation_desc:0 "作为卡在喜马拉雅山脚下的一个小国，不丹一直受着大国的指使和凌辱，成为地缘政治的牺牲品。这个情况到了1962年也不见得改变，虽然尼泊尔和西藏早已不是我们的威胁，可自由印度正时时刻刻虎视眈眈，要将我们收入囊中；而不丹内部的民族矛盾也令人堪忧：这样一个小小的国家内聚集着尼泊尔人、宗卡人、藏人和印度人四个民族，近乎可以说是一个火药桶。这更显得不丹举步维艰，稍有不慎命运就不知道会怎么书写历史。"
+    BHU_Transitional_Military_Occupation_tt:0 "§R稍有不慎，天崩地裂§!"
+    BHU_Bhotamuzh_Resistance:0 "潜龙之国"
+    BHU_Bhotamuzh_Resistance_tt:0 "自天上而来，下凡人间；人间不识神迹，皆以怪人称之，便就此逝去，不再来，不再眷顾。"
+    BHU_Bhotamuzh_Resistance_desc:0 "此地名为不丹。\n\n其仿佛是大地的一颗珍珠，被云雾轻抚。这片国土，宛如一个守护着自己文化和信仰的智者，静静地躺在喜马拉雅山的怀抱中。时光流淌在这片土地上，不丹的山川河流承载着悠久的历史。这里的每一座山峰，都是一座古老的宫殿，每一条河流，都是千百年来传承的故事。喜马拉雅的峻峭，似乎在守护这片圣地，使其成为一个被尊崇的灵魂之地。\n\n可灵魂不会拿枪，火药的威力超越一切。纵使不丹是一片世外桃源，那些肮脏的欲望之奴也会打碎这一切。而能做的只有看着，看着不丹陨落，成为外族人的一分子，从史书上抹去。"

@@ -1,0 +1,18 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_idea_TIB_minister_Neushar_Tupten_Tarpa"
+        textureFile = "gfx\\interface\\ideas\\TIB\\ministers\\tarpa.png"
+    }
+    spriteType = {
+        name = "GFX_idea_TIB_minister_Doka"
+        textureFile = "gfx\\interface\\ideas\\TIB\\ministers\\doka.png"
+    }
+    spriteType = {
+        name = "GFX_idea_TIB_minister_Sokang_Wangching"
+        textureFile = "gfx\\interface\\ideas\\TIB\\ministers\\sokang.png"
+    }
+    spriteType = {
+        name = "GFX_idea_TIB_minister_Ramba_Gonching"
+        textureFile = "gfx\\interface\\ideas\\TIB\\ministers\\ramba.png"
+    }
+}

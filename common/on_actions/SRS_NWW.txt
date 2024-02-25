@@ -1,0 +1,43 @@
+on_capitulation = {
+    effect = {
+        limit = {
+            has_global_flag = SRS_NWW_START
+            ROOT = {
+                OR = {
+                    original_tag = GAN
+                    original_tag = XIN
+                }
+            }
+            ETR = {
+                annex_country = XIN
+                annex_country = HXJ
+                every_state = {
+                    limit = {
+                        is_owned_by = HXJ
+                        is_owned_by = XIN
+                    }
+                    remove_core_of = HXJ
+                    remove_core_of = XIN
+
+                }
+
+                add_idea = Sphere_Coequal
+                country_event = {
+                    id = ETR.1
+                    days = 100
+                }
+            }
+            JAP = {
+                add_to_faction = ETR
+            }
+            GAN = {
+                set_cosmetic_tag = GAN_unifer
+                set_popularities = {
+                    fascism = 40
+                    ultranationalism = 60
+                }
+            }
+        }
+
+    }
+}

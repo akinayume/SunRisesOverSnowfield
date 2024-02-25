@@ -1,0 +1,7 @@
+defined_text = {
+    name = GET_CLOSEBUTTON_TEXT
+    text = {
+        trigger = { tag = RET }
+        localization_key = TSS_COUNTRY_INFO_BUTTON_TEXT_RET
+    }
+}

@@ -1,0 +1,76 @@
+characters = {
+    NIX_Peng_Dehuai = {
+        name = NIX_Peng_Dehuai
+        portraits = {
+          civilian = { large = "gfx/leaders/NIX/Portrait_NIX_Peng_Dehuai.dds" }
+        }
+        ####SUPER PENG DE HUAI#######
+        field_marshal = {
+          skill = 9
+          attack_skill = 9
+          defense_skill = 9
+          planning_skill = 9
+          logistics_skill = 9
+        }
+        country_leader = {
+          desc = "POLITICS_PENG_DEHUAI_DESC"
+          ideology = communist_national_communism_subtype
+          traits = { }
+          expire = "1999.1.1.1"
+          id = -1
+        }
+    }
+    NIX_Gao_Gang = {
+        name = NIX_Gao_Gang
+        portraits = {
+          civilian = { large = "gfx/leaders/NIX/Portrait_NIX_Gao_Gang.dds" }
+        }
+        country_leader = {
+            desc = "POLITICS_GAO_GANG_DESC"
+            ideology = communist_bolshevism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+    HXJ_Seypidin_Ezizi = {
+        name = HXJ_Seypidin_Ezizi
+        corps_commander = {
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 3
+        }
+        portraits = {
+          civilian = { large = "gfx/leaders/HXJ/Portrait_HXJ_Seypidin_Ezizi.dds" }
+        }
+        country_leader = {
+            desc = "POLITICS_Seypidin_Ezizi_DESC"
+            ideology = communist_marxism_leninism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+    HXJ_Abdukirim_Abbasof = {
+        name = HXJ_Abdukirim_Abbasof
+        portraits = {
+          civilian = { large = "gfx/leaders/HXJ/Portrait_HXJ_Abdukirim_Abbasof.dds" }
+        }
+        country_leader = {
+            desc = "POLITICS_Abdukirim_Abbasof_DESC"
+            ideology = socialist_revolutionary_frontism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+        country_leader = {
+            desc = "POLITICS_Abdukirim_Abbasof_KOMMUNE_DESC"
+            ideology = communist_bolshevism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+}

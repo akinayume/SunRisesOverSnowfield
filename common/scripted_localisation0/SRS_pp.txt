@@ -1,0 +1,47 @@
+defined_text = {
+    text = {
+      trigger = {
+        event_target:losing_country = {
+          original_tag = ETR
+        }
+      }
+      localization_key = TNO_PEACE_POPUP_FLAVOR_ETR
+    }
+    text = {
+      trigger = {
+        event_target:losing_country = {
+          original_tag = HXJ
+        }
+      }
+      localization_key = TNO_PEACE_POPUP_FLAVOR_HXJ
+    }
+    text = {
+      trigger = {
+        event_target:losing_country = {
+          original_tag = XIN
+        }
+      }
+      localization_key = TNO_PEACE_POPUP_FLAVOR_XIN
+    }
+}
+
+defined_text = {
+    text = {
+      trigger = {
+        event_target:losing_country = {
+          original_tag = XIK
+        }
+        TIB = { has_country_flag = TIB_XIK_WAR }
+      }
+      localization_key = TNO_PEACE_POPUP_FLAVOR_XIK_TIB
+    }
+    text = {
+      trigger = {
+        event_target:losing_country = {
+          original_tag = TIB
+        }
+        TIB = { has_country_flag = TIB_XIK_WAR }
+      }
+      localization_key = TNO_PEACE_POPUP_FLAVOR_TIB_XIK
+    }
+}

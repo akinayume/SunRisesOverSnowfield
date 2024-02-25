@@ -1,0 +1,114 @@
+add_namespace = NWW
+add_namespace = SRS_NEWS
+
+news_event = {
+    	id = SRS_NEWS.1
+    	immediate = {log = "[GetDateText]: [Root.GetName]: event WORLD.20"}
+    	title = SRS_NEWS.1.t
+    	desc = SRS_NEWS.1.desc
+    	picture = GFX_news_event_ITA_triumvirate_collapsed
+
+    	is_triggered_only = yes
+
+    	option = {
+    		name = SRS_NEWS.1.a
+    	}
+}
+country_event = {
+        id = NWW.1
+        title = NWW.t
+        desc = NWW.1.desc
+        fire_only_once = yes
+        is_triggered_Only = yes
+        option = {
+            name = XIN_WAR.1.but
+            event = {
+                  id = SRS_NEWS.2
+            }
+            event = {
+                name = XIN_WAR.2
+                days = 10
+            }
+        }
+}
+
+
+country_event = {
+        id = NWW.2
+        title = NWW.2.t
+        desc = NWW.2.desc
+        fire_only_once = yes
+        is_triggered_Only = yes
+        option = {
+            name = XIN_WAR.2.but
+            XIN = {
+                    set_cosmetic_tag = XIN_collapse
+                    promote_character = {
+                            character = XIN_power_vacuum
+                            ideology = despotism
+                    }
+                    set_popularities = {
+                         despotism = 20
+                         socialist = 20
+                         communist = 20
+                         despotism_1 = 20
+                         national_socialism = 20
+                     }
+            }
+            ETR = {
+                      load_oob = "etr_nww"
+                      transfer_state = 619
+            }
+            HXJ = {
+                      load_oob = "hxj_nww"
+                      transfer_state = 618
+            }
+            XIN = {
+                declare_war_on = {
+                    target = ETR
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = HXJ
+                    type = annex_everything
+                }
+                country_event = { id = NWW.1 days = 10 }
+            }
+            ETR = {
+                declare_war_on = {
+                    target = HXJ
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = XIN
+                    type = annex_everything
+                }
+            }
+            HXJ = {
+                declare_war_on = {
+                    target = XIN
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = ETR
+                    type = annex_everything
+                }
+            }
+
+
+            GAN = {
+                declare_war_on = {
+                    target = NIX
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = XIN
+                    type = annex_everything
+                }
+                declare_war_on = {
+                    target = QIN
+                    type = annex_everything
+                }
+            }
+        }
+}

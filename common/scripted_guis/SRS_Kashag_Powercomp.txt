@@ -1,0 +1,15 @@
+scripted_gui = { # |=[ 2. PARTY MECHANIC ]=|
+	SRS_Kashag_Powercomp = {
+		context_type = decision_category
+		window_name = "SRS_KPC_GUI"
+		dirty = BRI_Party_Dirty
+
+
+		effects = {
+			## Group Selection
+			K_R_click        = { set_variable = { SRS_KPC_SELECT = 0 }  }
+			K_RF     = { set_variable = { SRS_KPC_SELECT = 1 }  }
+			K_C = { set_variable = { SRS_KPC_SELECT = 2 }  }
+		}
+	}
+}

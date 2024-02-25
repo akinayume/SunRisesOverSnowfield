@@ -1,0 +1,35 @@
+spriteTypes = {
+	##Icon For: 千年农奴制
+	SpriteType = {
+		name = "GFX_idea_QNNNZ"
+		texturefile = "gfx/interface/ideas/TIB/QNNNZ.png"
+	}
+
+	##Icon For: 山脊上的共荣
+	SpriteType = {
+		name = "GFX_idea_SJSDGR"
+		texturefile = "gfx/interface/ideas/TIB/SJSDGR.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_TIBCS"
+		texturefile = "gfx/interface/ideas/TIB/TIBCS.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_RPTIDEA"
+		texturefile = "gfx/interface/ideas/TIB/RPTIDEA.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_LMZZ"
+		texturefile = "gfx/interface/ideas/TIB/LMZZ.png"
+	}
+
+	SpriteType = {
+			name = "GFX_idea_we_are_kmt"
+			texturefile = "gfx/interface/ideas/XIN/1.png"
+	}
+	SpriteType = {
+			name = "GFX_idea_the_fucking_panturkics"
+			texturefile = "gfx/interface/ideas/XIN/2.png"
+	}
+	
+ }
