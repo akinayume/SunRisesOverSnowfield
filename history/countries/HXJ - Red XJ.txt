@@ -194,8 +194,8 @@ set_politics = {
 set_popularities = {
 	communist = 51
 	ultranationalism = 0
-	socialist = 49
-	progressivism = 0
+	socialist = 36
+	progressivism = 13
 	liberalism = 0
 
 	conservatism = 0

@@ -4,11 +4,11 @@
 
 
 # Vacant
-recruit_character = NIX_Peng_Dehuai
 recruit_character = NIX_Gao_Gang
+recruit_character = NIX_Peng_Dehuai
+capital = 616
 
 set_country_flag = tno_playable_country
-oob = "GAN_1962"
 set_technology = {
 	basic_train = 1
 

@@ -65,7 +65,7 @@ add_ideas = {
 }
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = fascism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -78,12 +78,12 @@ set_popularities = {
 	national_socialism = 33
 	socialist = 0
 	progressivism = 0
-	liberalism = 0
+	liberalism = 12
 
-	conservatism = 2
+	conservatism = 0
 	paternalism = 20
-	despotism = 13
-	fascism = 32
+	despotism = 15
+	fascism = 22
 
 }
 
@@ -101,4 +101,12 @@ create_country_leader = {
 	picture = "Portrait_East_Turkestan_Muhammad_Amin_Bughra.dds"
 	expire = "1999.1.1"
 	ideology = national_socialism_subtype
+}
+
+create_country_leader = {
+	name = "伊斯哈克伯克·穆努诺夫"
+	desc = "POLITICS_MUHAMMAD_AMIN_BUGHRA_DESC"
+	picture = "gfx/leaders/ETR/Portrait_Sinkiang_Ishak.png"
+	expire = "1999.1.1"
+	ideology = paternalism_social_nationalism_subtype
 }

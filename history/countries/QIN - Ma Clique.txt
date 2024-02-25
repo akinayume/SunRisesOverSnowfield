@@ -137,15 +137,11 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	ultranationalism = 0
-	socialist = 0
-	progressivism = 0
-	liberalism = 0
-	conservatism = 13
-	paternalism = 16
-	despotism = 71
-	fascism = 0
+		despotism = 40
+		despotism_1 = 21
+		despotism_2 = 19
+		paternalism = 10
+		conservatism = 10
 
 }
 

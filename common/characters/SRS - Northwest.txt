@@ -1,4 +1,17 @@
 characters = {
+    NIX_Gao_Gang = {
+        name = NIX_Gao_Gang
+        portraits = {
+          civilian = { large = "gfx/leaders/NIX/Portrait_NIX_Gao_Gang.dds" }
+        }
+        country_leader = {
+            desc = "POLITICS_GAO_GANG_DESC"
+            ideology = communist_national_communism_subtype
+            traits = { }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
     NIX_Peng_Dehuai = {
         name = NIX_Peng_Dehuai
         portraits = {
@@ -20,19 +33,7 @@ characters = {
           id = -1
         }
     }
-    NIX_Gao_Gang = {
-        name = NIX_Gao_Gang
-        portraits = {
-          civilian = { large = "gfx/leaders/NIX/Portrait_NIX_Gao_Gang.dds" }
-        }
-        country_leader = {
-            desc = "POLITICS_GAO_GANG_DESC"
-            ideology = communist_bolshevism_subtype
-            traits = { }
-            expire = "1999.1.1.1"
-            id = -1
-        }
-    }
+
     HXJ_Seypidin_Ezizi = {
         name = HXJ_Seypidin_Ezizi
         corps_commander = {
