@@ -11,7 +11,7 @@ ideas = {
 
 						consumer_goods_use_modifier = 0.10
 						production_speed_buildings_factor = -0.30
-						gdp_growth_modifier = -2.00
+						gdp_growth_modifier = -5.00
 						production_factory_max_efficiency_factor = -0.80
 
 						stability_factor = 0.20
@@ -30,8 +30,9 @@ ideas = {
 					modifier = {
 						custom_modifier_tooltip = TIB_SJSDGR_tt
 						political_power_gain = -0.15
-						gdp_growth_modifier = 7.00
-
+						gdp_growth_modifier = 6.00
+						army_org_factor = 0.10
+						
 					}
 					picture = SJSDGR
 				}

@@ -13,6 +13,9 @@ characters = {
             expire = "1999.1.1"
             id = -1
             desc = "POLITICS_SRS_TENZIN_GYATSO_DESC"
+            traits = {
+                lama
+            }
         }
         country_leader = {
             ideology = despotism_1_subtype
@@ -46,6 +49,11 @@ characters = {
             cost = -1
             can_be_fired = no
             ai_will_do = { factor = 0 }
+
+
+            traits = {
+            	  tib_ntp_effect
+            }
         }
     }
     TIB_Doka = {
@@ -65,6 +73,9 @@ characters = {
             cost = -1
             can_be_fired = no
             ai_will_do = { factor = 0 }
+            traits = {
+                tib_doka_effect
+            }
         }
     }
     TIB_Yabshi_Taklha_Phuntso_Tashi = {
@@ -127,6 +138,9 @@ characters = {
             cost = -1
             can_be_fired = no
             ai_will_do = { factor = 0 }
+            traits = {
+                tib_skw_effect
+            }
         }
     }
     TIB_Ramba_Gonching = {
@@ -148,6 +162,9 @@ characters = {
             cost = -1
             can_be_fired = no
             ai_will_do = { factor = 0 }
+            traits = {
+                tib_rgo_effect
+            }
         }
     }
     ####URF(RPT-CPT) CHARS
@@ -160,7 +177,7 @@ characters = {
             }
         }
         country_leader = {
-            ideology = communist_bolshevism_subtype
+            ideology = communist_national_communism_subtype
             expire = "1999.1.1"
             id = -1
             desc = "POLITICS_PUNCOG_WANGGYAI_DESC"

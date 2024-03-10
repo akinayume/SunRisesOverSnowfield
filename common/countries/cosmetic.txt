@@ -2592,7 +2592,7 @@ TNS_Administration = {
 	color_ui = rgb { 192 216 219 }
 }
 
-TIB_RPT = {
+TIB_REV = {
 		color = rgb { 211 0 81 }
 		color_ui = rgb { 211 0 81 }
 }

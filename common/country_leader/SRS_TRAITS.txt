@@ -1,0 +1,23 @@
+leader_traits = {
+
+	####################
+	###############wo bu xiang zuo zhe ge aaaaaaa############
+	####################
+		lama = {
+				stability_factor = 0.25
+		}
+		tib_rgo_effect = {
+				stability_factor = 0.25
+				political_power_gain = -0.15
+		}
+		tib_ntp_effect = {
+				trade_opinion_factor = 0.1
+		}
+		tib_skw_effect = {
+				industrial_capacity_factory = 0.05
+		}
+		tib_doka_effect = {
+				army_org_factor = 0.10
+				experience_gain_army = 0.10
+		}
+}

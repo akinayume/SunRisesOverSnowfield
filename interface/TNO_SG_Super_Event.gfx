@@ -398,5 +398,9 @@ spriteTypes = {
 		name = "GFX_SE_CHINA_NORTHWEST_WAR"
 		textureFile = "gfx/superevent_pictures/custom.tga"
 	}
+	spriteType = {
+		name = "GFX_SE_TIB_CPT_TAKEOVER"
+		textureFile = "gfx/superevent_pictures/custo2m.tga"
+	}
 	##USE SUPER_EVENT_MAKER_GUI IN USEFUL PYTHON PROGRAMS TO MAKE NEW SUPER EVENTS##
 }

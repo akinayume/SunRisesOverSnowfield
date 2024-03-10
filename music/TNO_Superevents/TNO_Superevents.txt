@@ -664,3 +664,10 @@ music = {
 		modifier = { factor = 0 }
 	}
 }
+
+music = {
+	song = "TNO_SE_TIB_CPT_TAKEOVER"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

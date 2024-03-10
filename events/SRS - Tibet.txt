@@ -1,5 +1,5 @@
 add_namespace = TIB
-add_namespace = TIB_RET
+add_namespace = TIB_REV
 add_namespace = TIB_REF
 add_namespace = TIB_CON
 add_namespace = TIB_debug
@@ -16,6 +16,113 @@ country_event = {
         name = TIB_debug.1.a
         TIB = {
               add_ideas = { TIB_Sokang_Wangching_eco }
+        }
+    }
+}
+
+country_event = {
+    id = TIB_REV.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_REV.1.t
+    desc = TIB_REV.1.d
+    picture = GFX_report_event_rev1
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_REV.1.a
+    }
+}
+country_event = {
+    id = TIB_REV.2
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_REV.2.t
+    desc = TIB_REV.2.d
+    picture = GFX_report_event_rev2
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_REV.2.a
+    }
+}
+country_event = {
+    id = TIB_REV.3
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_REV.3.t
+    desc = TIB_REV.3.d
+    picture = GFX_report_event_rev3
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_REV.3.a
+    }
+}
+country_event = {
+    id = TIB_REV.4
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_REV.4.t
+    desc = TIB_REV.4.d
+    picture = GFX_report_event_rev4
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_REV.4.a
+    }
+}
+country_event = {
+    id = TIB_REV.5
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_REV.5.t
+    desc = TIB_REV.5.d
+    is_triggered_only = yes
+    picture = GFX_report_event_rev5
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_REV.5.a
+    }
+}
+country_event = {
+    id = TIB_debug.2
+    immediate = {log = "[GetDateText]: [Root.GetName]: SRS event TIB_debug.1"}
+    title = TIB_debug.1.t
+    desc = TIB_debug.1.d
+    is_triggered_only = yes
+    trigger = {
+        has_global_flag = JUST_TO_STOP_TRIGGERING_THIS_FUCKING_EVENT
+    }
+    option = {
+        name = TIB_debug.1.a
+        TIB = {
+            set_politics = {
+                  ruling_party = communist
+            }
+            set_party_name = {
+                ideology = despotism
+                name = TIB_despotism_party_cpt
+            }
+            set_party_name = {
+                ideology = paternalism
+                name = TIB_despotism_party_cpt
+            }
+            set_cosmetic_tag = TIB_REV
+            set_popularities = {
+                communist = 32
+                paternalism = 43
+                despotism = 25
+
+            }
+
+            set_temp_variable = { TNO_temp_super_event = token:SE_TIB_CPT_TAKEOVER }
+            TNO_fire_super_event = yes
         }
     }
 }

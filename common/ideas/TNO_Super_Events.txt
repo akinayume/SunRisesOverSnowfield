@@ -270,5 +270,8 @@ ideas = {
 		SE_CHINA_NORTHWEST_WAR_D = { }
 		SE_CHINA_NORTHWEST_WAR_A = { }
 
+		SE_TIB_CPT_TAKEOVER = { }
+		SE_TIB_CPT_TAKEOVER_D = { }
+		SE_TIB_CPT_TAKEOVER_A = { }
 	}
 }

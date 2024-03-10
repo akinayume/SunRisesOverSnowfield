@@ -475,3 +475,8 @@ music = {
 	name = "TNO_SE_CHINA_NORTHWEST_WAR"
 	file = ""
 }
+
+music = {
+	name = "TNO_SE_TIB_CPT_TAKEOVER"
+	file = "TIBB1.0_1.ogg"
+}
