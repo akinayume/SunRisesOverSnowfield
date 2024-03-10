@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_report_event_rev1"
+        textureFile = "gfx/event_pictures/Tibet/rev1.dds"
+    }
+    spriteType = {
+        name = "GFX_report_event_rev2"
+        textureFile = "gfx/event_pictures/Tibet/rev2.dds"
+    }
+    spriteType = {
+        name = "GFX_report_event_rev3"
+        textureFile = "gfx/event_pictures/Tibet/rev3.dds"
+    }
+    spriteType = {
+        name = "GFX_report_event_rev4"
+        textureFile = "gfx/event_pictures/Tibet/rev4.dds"
+    }
+    spriteType = {
+        name = "GFX_report_event_rev5"
+        textureFile = "gfx/event_pictures/Tibet/rev5.dds"
+    }
+}
